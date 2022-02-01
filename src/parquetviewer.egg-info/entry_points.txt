@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        view_parquet=view_parquet:main
+    
