@@ -5,13 +5,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="peter-parquet",
-    version='0.0.01',
+    version='0.2.0',
     author="Rafael Silva",
     author_email="rafaelsilva@posteo.net",
     description="Quiclky inspect parquet files in command line",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/sjlva/parquet-viewer",
+    url="https://github.com/sjlva/peter-parquet",
     py_modules=['view_parquet'],
     classifiers=[
         "Programming Language :: Python :: 3",
