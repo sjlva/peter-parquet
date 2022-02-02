@@ -28,3 +28,18 @@ Options:
 ```bash
 view_parquet path/to/parquet/file.parquet
 ```
+
+## Non Bash users
+
+If you are a non Bash user, notice that Python package executables are installed to ~/.local/bin. So, make sure to add this entry to your PATH variable.
+
+### ZSH
+
+Actually, using ZSH allows you to use special mapping of environment variables. So you can simply do:
+
+```bash
+path+=$HOME/.local/bin:$PATH
+export PATH
+```
+
+
