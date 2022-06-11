@@ -1,7 +1,7 @@
 import typer
 from rich.console import Console
 from rich.table import Table
-from cliparquet import CLIParquet
+from peter_parquet.cliparquet import CLIParquet
 
 console = Console()
 app = typer.Typer()
