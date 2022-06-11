@@ -1,4 +1,0 @@
-click==8.0.3
-pyarrow==6.0.1
-pandas==1.4.0
-rich_dataframe==0.2.0
